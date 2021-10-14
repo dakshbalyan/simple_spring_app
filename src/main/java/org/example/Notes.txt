@@ -1,0 +1,5 @@
+JPA repository
+SPring data book
+1. The Java Persistence API (JPA) is the standard way of persisting Java objects into relational databases
+2. The JPA consists of two parts: a mapping subsystem to map classes onto relational tables as well as an EntityManager API to access the objects, define and execute queries, and more
+3. The Spring Framework has always offered sophisticated support for JPA to ease repository implementations. The support consists of helper classes to set up an EntityManagerFactory, integrate with the Spring transaction abstraction, and translate JPA-specific exceptions into Spring’s DataAccessException hierarchy. The Spring Data JPA module implements the Spring Data Commons repository abstraction to ease the repository implementations even more, making a manual implementation of a repository obsolete in most cases.
